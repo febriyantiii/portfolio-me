@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My PortFolio</title>
+
+   <!--favicon-->
+   <link rel="shortcut icon" href="img/febri.png" type="image/x-icon">
+
+   <!--google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+     <!--boostrap 4 css-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+    <!--icon style link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--light-box cd-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css">
+
+    <!-- Bootstrap CSS -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <!---================== navigation menu=========-->
+   <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+       <a href="index.html" class="navbar-brand ml-lg-3">
+           <h1 class="m0 display-s">
+               <span class="text-primary">F</span>Y
+           </h1>
+       </a>
+       <!-- Button for responsive device -->
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse pc-lg-3" id="navbar-collapse">
+           <div class="navbar-nav m-auto py-0">
+               <a href="#home" class="nav-item nav-link active">Home</a>
+               <a href="#about" class="nav-item nav-link">About</a>
+               <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+               <a href="#project" class="nav-item nav-link">Deploy</a>
+               <a href="#contact" class="nav-item nav-link">Contact</a>
+           </div>
+       </div>
+   </nav>
+
+   <!-- Bootstrap JS and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--============== Header section=================-->
+<div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+   <div class="container">
+       <div class="row align-items-center">
+           <!-- Text Section -->
+           <div class="col-lg-6 hero-text text-center text-lg-left">
+               <h3 class="text-white font-weight-normal mb-3">Hello, My Name</h3>
+               <h1 class="display-3 text-uppercase text-primary mb-4" style="-webkit-text-stroke: 4px #ffffff;">FebriYanti</h1>
+               <h1 class="typed-text-outline d-inline font-weight-lighter text-white"></h1>
+               <!-- Typed text -->
+               <style>
+                   @keyframes typing {
+                       from { width: 0; }
+                       to { width: 100%; }
+                   }
+
+                   .typed-text {
+                       overflow: hidden;
+                       white-space: nowrap;
+                       font-size: 40px;
+                       color: #ffffff;
+                       animation: typing 3s steps(40, end) infinite;
+                   }
+               </style>
+
+               <div class="typed-text">
+                   My Portfolio Website
+               </div>
+
+               <!-- Button -->
+                   <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                       <a href="path/to/your/cv.pdf" class=" btn-white-text-dark " download>Download CV</a>
+                       <a href="#about" class=" btn-blue-text-white ">About Me</a>
+                   </div>
+
+
+               
+           </div>
+
+           <!-- Image Section -->
+           <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4">
+               <img src="img/bg.png" alt="" class="img-fluid rounded-circle shadow-sm about-img">
+           </div>
+       </div>
+   </div>
+</div><!---end header-->
+
+
+<!--================ About Section ====================-->
+<div class="container-fluid py-5" id="about">
+   <div class="container">
+      <div class="position-relativ d-flex align-items-center justify-content-center">
+       <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:1px #dee2e6">
+           About
+
+       </h1>
+       <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+       </div>
+       <div class="row align-items-center">
+           <div class="col-lg-5 pb-4 pb-lg-0">
+               <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+
+           </div>
+           <div class="col-lg-7">
+               <h3 class="mb-4">My Biodata</h3>
+               <p>Saya adalah seorang pelajar SMK jurusan Rekayasa Perangkat Lunak (RPL) yang berkomitmen untuk memahami dan menguasai dunia teknologi.
+                    Meskipun masih dalam tahap pendidikan menengah kejuruan, minat saya dalam analisis bisnis dan manajemen proyek sudah mulai terbentuk, 
+                    terutama dalam konteks pengembangan perangkat lunak.Dengan semangat belajar yang tinggi,
+                     saya berharap dapat terus tumbuh dan siap untuk mengejar karir di dunia teknologi setelah lulus.</p>
+               <div class="row mb-3">
+                   <div class="col-sm-6 py-2">
+                       <h6>Nama Lengkap: <span class="text-secondary">Febriyanti</span></h6>
+                   </div>
+                   <div class="col-sm-6 py-2 ">
+                       <h6>Tempat,Tanggal Lahir :<span class="text-secondary">Karawang, 25 februari 2007</span></h6>
+                   </div>
+                   <div class="col-sm-6 py-2">
+                       <h6>Nama Panggilan: <span class="text-secondary">Febri</span></h6>
+                   </div>
+                   <div class="col-sm-6 py-2">
+                       <h6>Anak ke: <span class="text-secondary">2(kedua) dari 4 bersaudara</span></h6>
+                   </div>
+                   <div class="col-sm-6 py-2">
+                       <h6>Alamat <span class="text-secondary">jln.Raa Singasari AnjunKaler</span></h6>
+                   </div>
+                   <div class="col-sm-6 py-2">
+                       <h6>Jenis Kelamin: <span class="text-secondary">Perempuan</span></h6>
+                   </div> 
+               </div>
+           </div>
+
+       </div>
+
+    </div>
+
+</div><!--End About Section-->
+
+
+<!--=================portfolio section===========-->
+<div class="container-fluid pt-5 pb-3" id="portfolio">
+   <div class="container">
+       <div class="service-h4 position-relativ d-flex align-items-center justify-content-center">
+           <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" >Gallery</h1>
+           <div class="position-absolute text-uppercase text-primary">My Portfolio</div>
+
+       </div>
+       <!---menu -->
+       <div class="row">
+           <div class="col-12 text-center mb-2">
+               <ul class="list-inline mb-4" id="portfolio-flters">
+                   <li class="btn btn-sm btn-outline-primary m-1" onclick="jumpToElement('css-portfolio')">Css</li>
+                   <li class="btn btn-sm btn-outline-primary m-1" onclick="jumpToElement('bootstrap-portfolio')">Bootstrap</li>
+                   <li class="btn btn-sm btn-outline-primary m-1" onclick="jumpToElement('form-portfolio')">Form</li>                    
+               </ul>
+           </div>
+       </div>
+       <div class="row portfolio-container">
+           <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" id="css-portfolio">
+               <div class="position-relative overflow-hidden mb-2">
+                   <img class="img-fluid rounded w-100" src="img/css.png" alt="">
+                   <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                       <a href="img/css.png" data-lightbox="portfolio">
+                       <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                       </a>
+
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" id="bootstrap-portfolio">
+               <div class="position-relative overflow-hidden mb-2">
+                   <img class="img-fluid rounded w-100" src="img/boostrap.png" alt="">
+                   <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                       <a href="img/boostrap.png" data-lightbox="portfolio">
+                       <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                       </a>
+
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="form-portfolio">
+               <div class="position-relative overflow-hidden mb-2">
+                   <img class="img-fluid rounded w-100" src="img/form.png" alt="">
+                   <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                       <a href="img/form.png" data-lightbox="portfolio">
+                       <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                       </a>
+
+                   </div>
+
+                   <script>
+                       function jumpToElement(elementId) {
+                           var element = document.getElementById(elementId);
+                           element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+                       }
+                   </script>                                
+               </div>
+             </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+<!---===========Services Start===========-->
+<div class="container-fluid pt-5 pb-3">
+   <div id="project">
+   <div class="container">
+       <div class="service-h4 position-relativ d-flex align-items-center justify-content-center">
+           <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" >Deploy</h1>
+           <div class="position-absolute text-uppercase text-primary">My Deploy</div>
+
+       </div>
+       <div class="container">
+           <div class="row pb-3">
+               <div class="deploy-box col-lg-4 col-md-6 mb-5">
+                   <div class="d-flex align-items-center justify-content-center mb-4">
+                       <i class="fa fa-2x fa-laptop deploy-icon bg-primary text-white mr-3"></i>
+                       <h4 class="font-weight-bold m-3">Deploy Css</h4>
+                   </div>
+                   <style>
+                       .container {
+                           max-width: 1200px;
+                           margin: 0 auto;
+                       }
+                   
+                       .deploy-box {
+                           border: 1px solid #dee2e6;
+                           border-radius: 10px;
+                           padding: 20px;
+                           background-color: #fff;
+                           transition: box-shadow 0.3s ease-in-out;
+                           margin-bottom: 20px;
+                           width: 100%; /* Menggunakan lebar penuh pada layar kecil */
+                           box-sizing: border-box;
+                       }
+                   
+                       .deploy-box:hover {
+                           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                       }
+                   
+                       @media (min-width: 576px) {
+                           .deploy-box {
+                               width: calc(50% - 40px); /* 50% lebar pada layar medium dan besar */
+                           }
+                       }
+                   
+                       @media (min-width: 768px) {
+                           .deploy-box {
+                               width: calc(33.33% - 40px); /* 33.33% lebar pada layar besar */
+                           }
+                       }
+                   </style>
+                   <p>Menerapkan CSS untuk meningkatkan estetika dan konsistensi desain dalam portofolio.</p>
+                   <a href="https://febriyantiii.github.io/tugas-css-pajum/" class="border-button border-primary text-decoration-none">Link Here</a>
+               </div>
+       
+               <div class="deploy-box col-lg-4 col-md-6 mb-5">
+                   <div class="d-flex align-items-center justify-content-center mb-4">
+                       <i class="fa fa-2x fa-laptop deploy-icon bg-primary text-white mr-3"></i>
+                       <h4 class="font-weight-bold m-3">Bootstrap</h4>
+                   </div>
+                   <p>Mengoptimalkan responsivitas dan tampilan profesional dengan Bootstrap.</p>
+                   <a href="https://febriyantiii.github.io/tugas-bootstrap-pajum/" class="border-button border-primary text-decoration-none">Link Here</a>
+               </div>
+       
+               <div class="deploy-box col-lg-4 col-md-6 mb-5">
+                   <div class="d-flex align-items-center justify-content-center mb-4">
+                       <i class="fa fa-2x fa-laptop deploy-icon bg-primary text-white mr-3"></i>
+                       <h4 class="font-weight-bold m-3">Form</h4>
+                   </div>
+                   <p>Menambahkan formulir untuk interaktifitas, memudahkan pengunjung berinteraksi dengan portofolio.</p>
+                   <a href="https://febriyantiii.github.io/tugas_pwb_pajum/" class="border-button border-primary text-decoration-none">Link Here</a>
+               </div>
+           </div>
+       </div>
+       
+               <!--contact-->
+               <div class="container-fluid py-5">
+                   <div id="contact"></div>
+                   <div class="container">
+
+                       <div class="position-relative d-flex align-items-center justify-content-center">
+                           <h1 class="dispay-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                           <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+                       </div>
+                       <div class="row justify-content-center">
+                           <div class="col-lg-8">
+                               <div class="contact-form text-center">
+                                   <div id="succes"></div>
+                                   <style>
+                                       form {
+                                           max-width: 600px;
+                                           margin: 0 auto;
+                                           padding: 20px;
+                                           border: 1px solid #ccc;
+                                           border-radius: 8px;
+                                       }
+                                   
+                                       label {
+                                           display: block;
+                                           margin-bottom: 10px;
+                                       }
+                                   
+                                       input,
+                                       textarea {
+                                           width: 100%;
+                                           padding: 10px;
+                                           margin-bottom: 10px;
+                                           border: 1px solid #ccc;
+                                           border-radius: 4px;
+                                           box-sizing: border-box;
+                                       }
+                                   
+                                       input[type="submit"] {
+                                           background-color: #457efa;
+                                           color: #fff;
+                                           cursor: pointer;
+                                       }
+                                   
+                                       input[type="submit"]:hover {
+                                           background-color: #3456c2;
+                                       }
+                                   </style>
+                                   <form
+                                       action="https://formspree.io/f/xwkddvyj"
+                                       method="POST">
+                                         <label>
+                                           <input type="text" placeholder="Full Name" name="full name">
+                                           <input type="email" placeholder="Email Addres" name="email addres">
+                                           <input type="number" placeholder="Number" name=" Number">
+                                           <input type="status" placeholder="Status" name="status">
+                                         </label>
+                                            <label>
+                                            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                                            </label>
+                                            <input type="submit" value="Send Message" class="btn">
+                                  </form>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+               <!--=====================footer section===========-->
+               <div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5">
+                   <div class="container text-center py-5">
+                       <div class="d-flex justify-content-center mb-4">
+                           <a href="https://x.com/fbriynti212942?t=genhAkBmLoQ_9Tc6Ob3OWA&s=09" class="btn btn-light btn-spcial mr-2"><i class="fab fa-twitter"></i></a>
+                           <a href="https://github.com/febriyantiii" class="btn btn-light btn-spcial mr-2"><i class="fab fa-github"></i></a>
+                           <a href="" class="btn btn-light btn-spcial mr-2"><i class="fab fa-instagram"></i></a>
+                           <a href="#" class="btn btn-light btn-spcial mr-2"><i class="fab fa-spotify"></i></a>
+                       </div>
+                       <div class="d-flex justify-content-center mb-3">
+                           <a href="#" class="text-white">Privacy</a>
+                           <span class="px-3">|</span>
+                           <a href="#" class="text-white">Terms</a>
+                           <span class="px-3">|</span>
+                           <a href="#" class="text-white">Faqs</a>
+                           <span class="px-3">|</span>
+                           <a href="#" class="text-white">Help</a>
+                       </div>
+                       <p class="m-0">
+                           <p>&#169; by febriyanti</p>
+                       </p>
+                   </div>
+               </div>
+
+   <!--JavaScript Libraries-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+   <!--js link-->
+   <script src="main.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+</body>
+</html>
